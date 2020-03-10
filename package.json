@@ -1,0 +1,31 @@
+{
+  "name": "netlify-cms-editor-component-figure",
+  "description": "An HTML figure widget for Netlify CMS",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "homepage": "https://github.com/colbyfayock/netlify-cms-editor-component-figure",
+  "keywords": [
+    "netlify",
+    "netlify-cms",
+    "cms",
+    "widget"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist -s inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colbyfayock/netlify-cms-editor-component-figure"
+  },
+  "bugs": {
+    "url": "https://github.com/colbyfayock/netlify-cms-editor-component-figure/issues"
+  }
+}
