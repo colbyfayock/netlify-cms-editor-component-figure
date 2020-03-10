@@ -1,4 +1,4 @@
-# Figure Netlify CMS Editor Component
+# 🖼️ Figure Netlify CMS Editor Component
 
 Use the native HTML `<figure>` element in Netlify CMS to add an image and caption it!
 
