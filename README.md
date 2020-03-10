@@ -2,6 +2,8 @@
 
 Use the native HTML `<figure>` element in Netlify CMS to add an image and caption it!
 
+Inspired by [this gist](https://gist.github.com/lnalex/2881c29649bc5d477954f79b3071e408). ❤️
+
 ## Install
 Add the package to your project:
 ```shell
